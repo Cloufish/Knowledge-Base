@@ -26,6 +26,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: sudo npm install
-    - run: sudo npm -g ci
+    - run: npm install
+    - run: npm ci
+    - run: sudo npm -g install gh-pages
+    - run: sudo npm -g install gatsby 
     - run: gatsby deploy
