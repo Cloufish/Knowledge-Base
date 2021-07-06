@@ -30,4 +30,4 @@ jobs:
     - run: npm ci
     - run: sudo npm -g install gh-pages
     - run: sudo npm -g install gatsby 
-    - run: gatsby deploy
+    - run: sudo gatsby deploy
