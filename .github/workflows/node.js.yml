@@ -26,7 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-     - run: cd docs/ && yarn install && yarn run deploy
-  #  - run: npm install
-   # - run: npm ci
-    #- run: gatsby deploy
+    - run: npm install
+    - run: npm ci
+    - run: gatsby deploy
