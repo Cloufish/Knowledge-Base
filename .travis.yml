@@ -1,4 +1,3 @@
-Copycopy code to clipboard
 language: node_js
 before_script:
   - npm install -g gatsby-cli
