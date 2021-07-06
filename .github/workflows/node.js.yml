@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: npm install gatsby-cli
     - run: npm install gh-pages
-    - run: gh-pages -d public -b gh-pages
+    - run: gatsby deploy
