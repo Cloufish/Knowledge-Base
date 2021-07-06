@@ -1,4 +1,13 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
+Copycopy code to clipboard
+language: node_js
+before_script:
+  - npm install -g gatsby-cli
+node_js:
+  - "10"
+deploy:
+  provider: script
+  # Note: change "docs" to the directory where your gatsby-site lives, if necessary
+  script: cd docs/ && yarn install && yarn run deploy
+  skip_cleanup: true
+  on:
+    branch: main
