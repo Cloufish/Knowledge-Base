@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: sudo npm install
     - run: sudo npm -g ci
-    - run: gatsby deploy
+    - run: sudo npm run deploy
