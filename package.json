@@ -6,7 +6,9 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b main"
+
   },
   "dependencies": {
     "gatsby": "^2.21.37",
