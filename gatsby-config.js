@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/CTF-Write-Ups`,
+  pathPrefix: `/knowledge-base`,
   plugins: [
     {
       resolve: `gatsby-theme-garden`,
@@ -10,7 +10,7 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: `Site title`,
+    title: `Test`,
   },
 }
 
