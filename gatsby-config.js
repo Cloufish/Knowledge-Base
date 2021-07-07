@@ -5,7 +5,7 @@ module.exports = {
       resolve: `gatsby-theme-garden`,
       options: {
         contentPath: `${__dirname}/content/garden`,
-        rootNote: `/HELLO-WORLD`,
+        rootNote: `/hello`,
       },
     },
   ],
