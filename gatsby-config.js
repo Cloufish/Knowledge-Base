@@ -5,11 +5,11 @@ module.exports = {
       resolve: `gatsby-theme-garden`,
       options: {
         contentPath: `${__dirname}/content/garden`,
-        rootNote: `/hello`,
+        rootNote: `/HELLO-WORLD`,
       },
     },
   ],
   siteMetadata: {
-    title: `Test`,
+    title: `Cloufish's Knowledge Base`,
   },
 }
