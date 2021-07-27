@@ -5,12 +5,20 @@ references:
 ---
 # WELCOME TO MY BLOG!
 - Aka Knowledge Base / Garden
+## IT Security Section
+[[IT Security Section]]
+
+## Not-Related
+[[Not-Related Section]]
+
 ## What is the Purpose of This Blog?
 - To collects meaningful thoughts, that can be connected together.
 - It fixes the problem that current blog website has, which is the lack of proper structure and many other aspects -> [[What Most Blog Websites Lacks]]
 
 You're probably wondering, [[HOW-TO-READ-THIS-BLOG|how to read this blog]] <- Click this link and learn! 
 
+## Posts From The Previous Website That Hasn't Been Reviewed Yet
+[[Old Posts From Previous Blog]]
 
 
 
